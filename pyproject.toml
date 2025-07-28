@@ -2,6 +2,17 @@
 name = "parrotaligner"
 version = "0.1.0"
 description = "Add your description here"
+authors = [{ name = "Thanh Hoang-Minh", email = "hmthanhgm@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "kaldiio",
+    "soundfile",
+    "librosa",
+    "espnet",
+    "espnet_model_zoo",
+    "demucs",
+    "torchaudio",
+    "torch",
+    "rnnoise-python",
+]
